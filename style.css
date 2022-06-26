@@ -1,0 +1,24 @@
+.heading{
+    color: red;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.numbers{
+    border: solid black 2px;
+    width: 40px;
+    text-align: center;
+    margin: 24px;
+    padding: 16px;
+    background-color: antiquewhite;
+}
+
+.result{
+    border: solid black 2px;
+    width: 300px;
+    padding: 24px;
+}
+
+.flex-container{
+    display: flex;
+}

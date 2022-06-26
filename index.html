@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!----eth is div tag today------->
+    <div class="heading">
+        Calculator
+    </div>
+    <div class="flex-container">
+        <div id="num0" class="numbers" onclick="getNumber('num0')">
+            0
+        </div>
+        <div id="num1" class="numbers" onclick="getNumber('num1')">
+            1
+        </div>
+        <div id="num2" class="numbers" onclick="getNumber('num2')">
+            2
+        </div>
+    </div>
+
+    <div class="flex-container">
+        <div id="num3" class="numbers" onclick="getNumber('num3')">
+            3
+        </div>
+        <div id="num4" class="numbers" onclick="getNumber('num4')">
+            4
+        </div>
+        <div id="num5" class="numbers" onclick="getNumber('num5')">
+            5
+        </div>
+    </div>
+
+    <div class="flex-container">
+        <div id="num6" class="numbers" onclick="getNumber('num6')">
+            6
+        </div>
+        <div id="num7" class="numbers" onclick="getNumber('num7')">
+            7
+        </div>
+        <div id="num8" class="numbers" onclick="getNumber('num8')">
+            8
+        </div>
+    </div>
+    
+    <div class="flex-container">
+        <div id="num9" class="numbers" onclick="getNumber('num9')">
+            9
+        </div>
+
+        <div id="plus" class="numbers" onclick="getOperator('plus')">
+            +
+        </div>
+        <div id="minus" class="numbers" onclick="getOperator('minus')">
+            -
+        </div>
+    </div>
+
+    <div class="flex-container">
+        <div id="multiple" class="numbers" onclick="getOperator('multiple')">
+            *
+        </div>
+        <div id="divide" class="numbers" onclick="getOperator('divide')">
+            /
+        </div>
+        <div class="numbers" onclick="showResult()">
+            =
+        </div>
+    </div>
+    
+    <div id="result" class="result">
+        
+    </div>
+
+    <!----------------js script----------------->
+    <script src="index.js"></script>
+</body>
+</html>
